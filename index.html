@@ -33,6 +33,12 @@
                     <li class="nav-item">
                         <a href="#contacto" class="nav-link">Contacto</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link cart-icon" id="cart-toggle">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count" id="cart-count">0</span>
+                        </a>
+                    </li>
                 </ul>
                 <div class="nav-toggle">
                     <span class="bar"></span>
@@ -102,56 +108,96 @@
                                 <h4>Americano</h4>
                                 <p>Café americano clásico, fuerte y aromático</p>
                             </div>
-                            <span class="price">$20</span>
+                            <div class="item-actions">
+                                <span class="price">$20</span>
+                                <button class="add-to-cart-btn" data-name="Americano" data-price="20">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Latte</h4>
                                 <p>Espresso con leche vaporizada y arte latte</p>
                             </div>
-                            <span class="price">$25</span>
+                            <div class="item-actions">
+                                <span class="price">$25</span>
+                                <button class="add-to-cart-btn" data-name="Latte" data-price="25">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Moka</h4>
                                 <p>Deliciosa combinación de café y chocolate</p>
                             </div>
-                            <span class="price">$25</span>
+                            <div class="item-actions">
+                                <span class="price">$25</span>
+                                <button class="add-to-cart-btn" data-name="Moka" data-price="25">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Chocolate</h4>
                                 <p>Chocolate caliente cremoso y reconfortante</p>
                             </div>
-                            <span class="price">$25</span>
+                            <div class="item-actions">
+                                <span class="price">$25</span>
+                                <button class="add-to-cart-btn" data-name="Chocolate" data-price="25">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Capuchino Moka</h4>
                                 <p>Capuchino con toque de chocolate</p>
                             </div>
-                            <span class="price">$30</span>
+                            <div class="item-actions">
+                                <span class="price">$30</span>
+                                <button class="add-to-cart-btn" data-name="Capuchino Moka" data-price="30">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Capuchino Caramel</h4>
                                 <p>Capuchino con delicioso sabor a caramelo</p>
                             </div>
-                            <span class="price">$35</span>
+                            <div class="item-actions">
+                                <span class="price">$35</span>
+                                <button class="add-to-cart-btn" data-name="Capuchino Caramel" data-price="35">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Capuchino Rompope</h4>
                                 <p>Capuchino con el tradicional sabor a rompope</p>
                             </div>
-                            <span class="price">$40</span>
+                            <div class="item-actions">
+                                <span class="price">$40</span>
+                                <button class="add-to-cart-btn" data-name="Capuchino Rompope" data-price="40">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Café Gourmet</h4>
                                 <p>Nuestra selección premium de café gourmet</p>
                             </div>
-                            <span class="price">$35</span>
+                            <div class="item-actions">
+                                <span class="price">$35</span>
+                                <button class="add-to-cart-btn" data-name="Café Gourmet" data-price="35">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -164,35 +210,60 @@
                                 <h4>Frappé Rompope</h4>
                                 <p>Frappé helado con sabor a rompope tradicional</p>
                             </div>
-                            <span class="price">$60</span>
+                            <div class="item-actions">
+                                <span class="price">$60</span>
+                                <button class="add-to-cart-btn" data-name="Frappé Rompope" data-price="60">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Frappé Moka</h4>
                                 <p>Frappé de café con chocolate, refrescante</p>
                             </div>
-                            <span class="price">$55</span>
+                            <div class="item-actions">
+                                <span class="price">$55</span>
+                                <button class="add-to-cart-btn" data-name="Frappé Moka" data-price="55">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Frappé Caramel</h4>
                                 <p>Frappé con delicioso sabor a caramelo</p>
                             </div>
-                            <span class="price">$55</span>
+                            <div class="item-actions">
+                                <span class="price">$55</span>
+                                <button class="add-to-cart-btn" data-name="Frappé Caramel" data-price="55">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Frappé Chocolate</h4>
                                 <p>Frappé de chocolate cremoso y refrescante</p>
                             </div>
-                            <span class="price">$50</span>
+                            <div class="item-actions">
+                                <span class="price">$50</span>
+                                <button class="add-to-cart-btn" data-name="Frappé Chocolate" data-price="50">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                         <div class="menu-item">
                             <div class="item-info">
                                 <h4>Frappé Americano Frío</h4>
                                 <p>Americano helado, perfecto para el calor</p>
                             </div>
-                            <span class="price">$50</span>
+                            <div class="item-actions">
+                                <span class="price">$50</span>
+                                <button class="add-to-cart-btn" data-name="Frappé Americano Frío" data-price="50">
+                                    <i class="fas fa-shopping-cart"></i> Agregar
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -261,11 +332,14 @@
                     </div>
                 </div>
                 <div class="location-map">
-                    <div class="map-placeholder">
-                        <i class="fas fa-map"></i>
-                        <p>Mapa Interactivo</p>
-                        <small>Próximamente disponible</small>
-                    </div>
+                    <iframe
+                        width="100%"
+                        height="450"
+                        style="border:0; border-radius: 20px;"
+                        loading="lazy"
+                        allowfullscreen
+                        src="https://www.google.com/maps/embed/v1/place?q=97C%2C%20Art%C3%ADculo%20123%2C%20Colonia%20Centro%2C%20Centro%2C%2006050%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX&key=">
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -386,6 +460,64 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal del Carrito -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-modal-content">
+            <div class="cart-header">
+                <h2>Tu Carrito</h2>
+                <span class="close-cart" id="close-cart">&times;</span>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <p class="empty-cart">Tu carrito está vacío</p>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <strong>Total: $<span id="cart-total">0</span></strong>
+                </div>
+                <button class="checkout-btn" id="checkout-btn">Proceder al Pago</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Checkout -->
+    <div id="checkout-modal" class="checkout-modal">
+        <div class="checkout-modal-content">
+            <div class="checkout-header">
+                <h2>Finalizar Compra</h2>
+                <span class="close-checkout" id="close-checkout">&times;</span>
+            </div>
+            <div class="checkout-content">
+                <div class="order-summary">
+                    <h3>Resumen del Pedido</h3>
+                    <div id="order-items"></div>
+                    <div class="order-total">
+                        <strong>Total: $<span id="order-total">0</span></strong>
+                    </div>
+                </div>
+                <div class="payment-options">
+                    <h3>Opciones de Pago</h3>
+                    <div class="payment-method">
+                        <button class="payment-btn mercadopago-btn" onclick="payWithMercadoPago()">
+                            <i class="fas fa-credit-card"></i>
+                            Pagar con Mercado Pago
+                        </button>
+                    </div>
+                    <div class="payment-method">
+                        <button class="payment-btn transfer-btn" onclick="showTransferInfo()">
+                            <i class="fas fa-university"></i>
+                            Transferencia Bancaria
+                        </button>
+                    </div>
+                </div>
+                <div class="transfer-info" id="transfer-info" style="display: none;">
+                    <h4>Información para Transferencia</h4>
+                    <p><strong>Clave:</strong> 722969020239795996</p>
+                    <p>Una vez realizada la transferencia, envía el comprobante al WhatsApp: +52 56 6165 8101</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
