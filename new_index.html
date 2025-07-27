@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Havana - El mejor café donde tú estés</title>
+    <link rel="stylesheet" href="new_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="coffee-cup">
+            <div class="steam"></div>
+            <div class="steam"></div>
+            <div class="steam"></div>
+        </div>
+        <p>Preparando tu experiencia...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="brand-name">Coffe Havana</span>
+                        <span class="brand-tagline">Premium Coffee</span>
+                    </div>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">
+                            <span>Inicio</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">
+                            <span>Menú</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ubicacion" class="nav-link">
+                            <span>Ubicación</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nosotros" class="nav-link">
+                            <span>Nosotros</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">
+                            <span>Contacto</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button class="cart-btn" id="cart-toggle">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cart-count">0</span>
+                        <div class="cart-pulse"></div>
+                    </button>
+                    <button class="nav-toggle" id="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="floating-elements">
+                <div class="floating-bean bean-1"></div>
+                <div class="floating-bean bean-2"></div>
+                <div class="floating-bean bean-3"></div>
+                <div class="floating-bean bean-4"></div>
+                <div class="floating-bean bean-5"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-star"></i>
+                <span>Café Premium desde 2019</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="title-line">El mejor café</span>
+                <span class="title-line highlight">de la ciudad,</span>
+                <span class="title-line">donde tú estés</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                Café artesanal preparado con pasión, servido directamente en tu esquina favorita. 
+                <strong>¡Ahora también hacemos pedidos a domicilio!</strong>
+            </p>
+            
+            <div class="hero-actions">
+                <a href="#menu" class="cta-primary">
+                    <span>Ver Nuestro Menú</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contacto" class="cta-secondary">
+                    <i class="fas fa-phone"></i>
+                    <span>Pedir Ahora</span>
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Años de experiencia</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Café Arábica</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Pedidos online</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Desliza para explorar</span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Café 100% Arábica</h3>
+                    <p>Granos seleccionados de las mejores plantaciones</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Ingredientes Naturales</h3>
+                    <p>Sin conservantes ni aditivos artificiales</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Hecho con Amor</h3>
+                    <p>Cada taza preparada con pasión y dedicación</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <h3>Pedidos a Domicilio</h3>
+                    <p>Llevamos el mejor café hasta tu puerta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-utensils"></i>
+                    <span>Nuestro Menú</span>
+                </div>
+                <h2 class="section-title">Descubre Nuestros Sabores</h2>
+                <p class="section-subtitle">Cada bebida es una experiencia única preparada con los mejores ingredientes</p>
+            </div>
+
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="calientes">
+                    <i class="fas fa-fire"></i>
+                    <span>Cafés Calientes</span>
+                </button>
+                <button class="tab-btn" data-tab="frios">
+                    <i class="fas fa-snowflake"></i>
+                    <span>Frappés</span>
+                </button>
+            </div>
+
+            <div class="menu-content">
+                <div class="menu-category active" id="calientes">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="item-image">
+                                <img src="new_images/coffee-steam.jpg" alt="Americano">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Americano" data-price="20">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Americano</h4>
+                                    <span class="price">$20</span>
+                                </div>
+                                <p>Café americano clásico, fuerte y aromático</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Americano" data-price="20">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="item-image">
+                                <img src="new_images/latte-art.jpg" alt="Latte">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Latte" data-price="25">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Latte</h4>
+                                    <span class="price">$25</span>
+                                </div>
+                                <p>Espresso con leche vaporizada y arte latte</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Latte" data-price="25">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="item-image">
+                                <img src="new_images/coffee-steam.jpg" alt="Moka">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Moka" data-price="25">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Moka</h4>
+                                    <span class="price">$25</span>
+                                </div>
+                                <p>Deliciosa combinación de café y chocolate</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Moka" data-price="25">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="item-image">
+                                <img src="new_images/coffee-steam.jpg" alt="Chocolate">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Chocolate" data-price="25">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Chocolate</h4>
+                                    <span class="price">$25</span>
+                                </div>
+                                <p>Chocolate caliente cremoso y reconfortante</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Chocolate" data-price="25">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="item-image">
+                                <img src="new_images/latte-art.jpg" alt="Capuchino Moka">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Capuchino Moka" data-price="30">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Capuchino Moka</h4>
+                                    <span class="price">$30</span>
+                                </div>
+                                <p>Capuchino con toque de chocolate</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Capuchino Moka" data-price="30">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="500">
+                            <div class="item-image">
+                                <img src="new_images/latte-art.jpg" alt="Capuchino Caramel">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Capuchino Caramel" data-price="35">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Capuchino Caramel</h4>
+                                    <span class="price">$35</span>
+                                </div>
+                                <p>Capuchino con delicioso sabor a caramelo</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Capuchino Caramel" data-price="35">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="600">
+                            <div class="item-image">
+                                <img src="new_images/latte-art.jpg" alt="Capuchino Rompope">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Capuchino Rompope" data-price="40">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Capuchino Rompope</h4>
+                                    <span class="price">$40</span>
+                                </div>
+                                <p>Capuchino con el tradicional sabor a rompope</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Capuchino Rompope" data-price="40">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="700">
+                            <div class="item-image">
+                                <img src="new_images/coffee-steam.jpg" alt="Café Gourmet">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Café Gourmet" data-price="35">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Café Gourmet</h4>
+                                    <span class="price">$35</span>
+                                </div>
+                                <p>Nuestra selección premium de café gourmet</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Café Gourmet" data-price="35">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category" id="frios">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="item-image">
+                                <img src="new_images/latte-art.jpg" alt="Frappé Rompope">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Frappé Rompope" data-price="60">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Frappé Rompope</h4>
+                                    <span class="price">$60</span>
+                                </div>
+                                <p>Frappé helado con sabor a rompope tradicional</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Frappé Rompope" data-price="60">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="item-image">
+                                <img src="new_images/latte-art.jpg" alt="Frappé Moka">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Frappé Moka" data-price="55">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Frappé Moka</h4>
+                                    <span class="price">$55</span>
+                                </div>
+                                <p>Frappé de café con chocolate, refrescante</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Frappé Moka" data-price="55">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="item-image">
+                                <img src="new_images/latte-art.jpg" alt="Frappé Caramel">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Frappé Caramel" data-price="55">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Frappé Caramel</h4>
+                                    <span class="price">$55</span>
+                                </div>
+                                <p>Frappé con delicioso sabor a caramelo</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Frappé Caramel" data-price="55">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="item-image">
+                                <img src="new_images/latte-art.jpg" alt="Frappé Chocolate">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Frappé Chocolate" data-price="50">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Frappé Chocolate</h4>
+                                    <span class="price">$50</span>
+                                </div>
+                                <p>Frappé de chocolate cremoso y refrescante</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Frappé Chocolate" data-price="50">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="item-image">
+                                <img src="new_images/coffee-steam.jpg" alt="Frappé Americano Frío">
+                                <div class="item-overlay">
+                                    <button class="quick-add" data-name="Frappé Americano Frío" data-price="50">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h4>Frappé Americano Frío</h4>
+                                    <span class="price">$50</span>
+                                </div>
+                                <p>Americano helado, perfecto para el calor</p>
+                                <div class="item-actions">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <button class="add-to-cart-btn" data-name="Frappé Americano Frío" data-price="50">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Agregar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="section-badge">
+                        <i class="fas fa-heart"></i>
+                        <span>Nuestra Historia</span>
+                    </div>
+                    <h2>Más que café, una experiencia</h2>
+                    <p>Comenzamos como un sueño simple: llevar el mejor café a las calles de nuestra ciudad. Con más de 5 años de experiencia, nos hemos convertido en el punto de encuentro favorito para los amantes del café que buscan calidad y conveniencia.</p>
+                    <p>Cada taza que servimos está preparada con granos seleccionados y el cariño de quienes aman lo que hacen. Creemos que el mejor café no necesita un lugar fijo, sino que debe estar donde tú lo necesites.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <div class="highlight-number">5+</div>
+                            <div class="highlight-text">Años de experiencia</div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight-number">1000+</div>
+                            <div class="highlight-text">Clientes satisfechos</div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight-number">100%</div>
+                            <div class="highlight-text">Café premium</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="about-image">
+                        <img src="new_images/hero-bg.jpg" alt="Interior de Coffe Havana">
+                        <div class="image-overlay">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>Calidad Garantizada</h4>
+                            <p>Certificación de calidad premium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="ubicacion" class="location">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Ubicación</span>
+                </div>
+                <h2 class="section-title">Encuéntranos</h2>
+                <p class="section-subtitle">Visítanos en nuestro acogedor espacio o pide a domicilio</p>
+            </div>
+
+            <div class="location-content">
+                <div class="location-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <div class="card-header">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Nuestra Ubicación</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4>Coffe Havana</h4>
+                            <p>97C, Artículo 123, Colonia Centro<br>Centro, 06050 Ciudad de México, CDMX</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-header">
+                            <i class="fas fa-clock"></i>
+                            <h3>Horarios de Atención</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="schedule-item">
+                                <span>Lunes a Sábado</span>
+                                <span>6:00 AM - 11:00 AM</span>
+                            </div>
+                            <div class="schedule-item closed">
+                                <span>Domingo</span>
+                                <span>Cerrado</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-header">
+                            <i class="fas fa-phone"></i>
+                            <h3>Contacto Directo</h3>
+                        </div>
+                        <div class="card-body">
+                            <a href="tel:+525661658101" class="contact-link">
+                                <i class="fas fa-phone"></i>
+                                <span>+52 56 6165 8101</span>
+                            </a>
+                            <a href="mailto:iyosmel12@gmail.com" class="contact-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>iyosmel12@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-map" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed/v1/place?q=97C%2C%20Art%C3%ADculo%20123%2C%20Colonia%20Centro%2C%20Centro%2C%2006050%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX&key="
+                            width="100%"
+                            height="400"
+                            style="border:0; border-radius: 20px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div class="map-overlay">
+                            <div class="map-marker">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-comments"></i>
+                    <span>Contacto</span>
+                </div>
+                <h2 class="section-title">¡Hablemos!</h2>
+                <p class="section-subtitle">Estamos aquí para servirte el mejor café</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-methods">
+                        <div class="method-card">
+                            <div class="method-icon">
+                                <i class="fas fa-motorcycle"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Pedidos a Domicilio</h4>
+                                <p>Llama al <strong>+52 56 6165 8101</strong> para hacer tu pedido</p>
+                                <a href="tel:+525661658101" class="method-btn">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Llamar Ahora</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="method-card">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>WhatsApp</h4>
+                                <p>Chatea con nosotros para pedidos rápidos</p>
+                                <a href="https://wa.me/5256616581011" class="method-btn whatsapp" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>Escribir</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="payment-info">
+                            <h4>Métodos de Pago</h4>
+                            <div class="payment-methods">
+                                <div class="payment-method">
+                                    <div class="payment-icon mercadopago">
+                                        <i class="fas fa-credit-card"></i>
+                                    </div>
+                                    <div class="payment-details">
+                                        <h5>Mercado Pago</h5>
+                                        <a href="https://link.mercadopago.com.mx/coffehavana" target="_blank">
+                                            link.mercadopago.com.mx/coffehavana
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="payment-method">
+                                    <div class="payment-icon transfer">
+                                        <i class="fas fa-university"></i>
+                                    </div>
+                                    <div class="payment-details">
+                                        <h5>Transferencia Bancaria</h5>
+                                        <p>Clave: <strong>722969020239795996</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container" data-aos="fade-left">
+                    <form class="contact-form">
+                        <h3>Envíanos un mensaje</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Enviar Mensaje</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="brand-name">Coffe Havana</span>
+                            <span class="brand-tagline">Premium Coffee</span>
+                        </div>
+                    </div>
+                    <p>El mejor café de la ciudad, donde tú estés. Calidad premium en cada taza.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://wa.me/5256616581011" class="social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#menu">Menú</a></li>
+                        <li><a href="#ubicacion">Ubicación</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>97C, Artículo 123, Colonia Centro<br>CDMX, México</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+52 56 6165 8101</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>iyosmel12@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <div class="footer-schedule">
+                        <div class="schedule-item">
+                            <span>Lunes - Sábado</span>
+                            <span>6:00 AM - 11:00 AM</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span>Domingo</span>
+                            <span>Cerrado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Coffe Havana. Todos los derechos reservados.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Política de Privacidad</a>
+                        <a href="#">Términos de Servicio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-modal-content">
+            <div class="cart-header">
+                <h2>Tu Carrito</h2>
+                <button class="close-cart" id="close-cart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-body">
+                <div class="cart-items" id="cart-items">
+                    <div class="empty-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h3>Tu carrito está vacío</h3>
+                        <p>Agrega algunos productos deliciosos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total: $<span id="cart-total">0</span></span>
+                </div>
+                <button class="checkout-btn" id="checkout-btn" disabled>
+                    <span>Proceder al Pago</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkout-modal" class="checkout-modal">
+        <div class="checkout-modal-content">
+            <div class="checkout-header">
+                <h2>Finalizar Compra</h2>
+                <button class="close-checkout" id="close-checkout">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="checkout-body">
+                <div class="order-summary">
+                    <h3>Resumen del Pedido</h3>
+                    <div class="order-items" id="order-items"></div>
+                    <div class="order-total">
+                        <span>Total: $<span id="order-total">0</span></span>
+                    </div>
+                </div>
+                <div class="payment-options">
+                    <h3>Opciones de Pago</h3>
+                    <button class="payment-btn mercadopago-btn" onclick="payWithMercadoPago()">
+                        <div class="payment-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <div class="payment-text">
+                            <span>Pagar con Mercado Pago</span>
+                            <small>Tarjetas, transferencias y más</small>
+                        </div>
+                    </button>
+                    <button class="payment-btn transfer-btn" onclick="showTransferInfo()">
+                        <div class="payment-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="payment-text">
+                            <span>Transferencia Bancaria</span>
+                            <small>Pago directo a cuenta</small>
+                        </div>
+                    </button>
+                </div>
+                <div class="transfer-info" id="transfer-info" style="display: none;">
+                    <div class="transfer-card">
+                        <h4>Información para Transferencia</h4>
+                        <div class="transfer-details">
+                            <div class="detail-item">
+                                <span class="label">Clave:</span>
+                                <span class="value">722969020239795996</span>
+                            </div>
+                        </div>
+                        <p>Una vez realizada la transferencia, envía el comprobante al WhatsApp: <strong>+52 56 6165 8101</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="new_script.js"></script>
+</body>
+</html>
+
